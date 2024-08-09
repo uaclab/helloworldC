@@ -2,6 +2,12 @@
 
 int main()
 {
-    printf("Hello world !");
+    int age;
+    char name[50];
+    printf("Enter your name ");
+    scanf("%s", name);
+    printf("Enter your age ");
+    scanf("%d", &age);
+    printf("Hello %s, you are %d old.", name, age);
     return (0);
 }
